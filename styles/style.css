@@ -1,16 +1,21 @@
 @font-face {
-  font-family: sf-fonte;
-  src: url(/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF) format(OpenType);
+  font-family: poppins;
+  src: url(/Poppins/Poppins-ExtraLight.ttf);
 }
+a {
+  text-decoration: none;
+  color: #ececec;
+}
+
 .screen {
   background: #252525;
-  width: 1280px height 2993px font-family sf-fonte;
+  width: 1280px height 2993px font-family;
 }
 
 .header {
   width: 790px;
   height: 615.09px;
-  font-family: sf-fonte;
+  font-family: poppins;
   color: #969696;
   padding-top: 100px;
   position: relative;
@@ -21,4 +26,46 @@
   height: 140px;
   width: 130px;
   border-radius: 62px;
+}
+
+.name {
+  color: #ECECEC;
+  font-weight: BOLD;
+}
+
+.title {
+  color: #ECECEC;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-top: -20px;
+}
+
+.text1 {
+  color: #969696;
+  font-weight: lighter;
+}
+
+.btn1 {
+  height: 64px;
+  width: 150px;
+  border-radius: 10px;
+  border-color: #ececec;
+  background-color: transparent;
+  color: #ececec;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.btn1 :hover {
+  background-color: #ececec;
+  color: #252525;
+}
+
+.fa-brands, .fa-solid {
+  padding-right: 10px;
+}
+
+.fa-brands,
+.fa-solid :hover {
+  color: #252525;
 }/*# sourceMappingURL=style.css.map */
