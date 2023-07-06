@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Personal Website</title>
-    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/brands.css" />
     <link
-      rel="stylesheet"
       href="/fontawesome-free-6.4.0-web/css/fontawesome.css"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/solid.css" />
+    <link href="/fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet" />
+    <link href="/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet" />
     <link rel="stylesheet" href="/sf-pro-display-cufonfonts/" />
-    <link rel="stylesheet" href="index.scss" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
     <div class="screen">
       <!-- Head -->
       <div class="header">
-        <img src="/images/foto.png" />
+        <img class="foto" src="/images/foto.png" />
 
         <h1 class="name">Ana Paula Alonso</h1>
 
@@ -29,27 +30,76 @@
           Passionate about micro-interactions, sales automation and bikes.
         </h3>
 
-        <button class="btn1"><a href="#">Let's Talks</a></button>
-        <button class="btn1"><a href="#">Figma</a></button>
-        <button class="btn1"><a href="#">Dribbble</a></button>
-        <button class="btn1"><a href="#">LinkedIn</a></button>
+        <button class="btn1">
+          <a href="#"
+            ><i class="fa-solid fa-paper-plane" style="color: #191919"></i>Let's
+            Talks</a
+          >
+        </button>
+        <button class="btn1">
+          <a href="#">
+            <i class="fa-brands fa-figma" style="color: #ececec"></i>Figma</a
+          >
+        </button>
+        <button class="btn1">
+          <a href="#"
+            ><i class="fa-brands fa-dribbble" style="color: #ececec"></i
+            >Dribbble</a
+          >
+        </button>
+        <button class="btn1">
+          <a href="#"
+            ><i class="fa-brands fa-linkedin" style="color: #ececec"></i
+            >LinkedIn</a
+          >
+        </button>
       </div>
 
-      <!-- products -->
+      <!-- Products -->
       <div class="products">
         <h3 class="text1">My Products</h3>
         <img src="/images/Product 1.png" alt="" />
-        <button class="btn2"><a href="#">Swipe Illustrations</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >Swipe Illustrations</a
+          >
+        </button>
         <img src="/images/Product 2.png" alt="" />
-        <button class="btn2"><a href="#">Life Components</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >Life Components</a
+          >
+        </button>
         <img src="/images/Product 3.png" alt="" />
-        <button class="btn2"><a href="#">Head Avatars</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >Head Avatars</a
+          >
+        </button>
         <img src="/images/Product 4.png" alt="" />
-        <button class="btn2"><a href="#">Ephemeris Illustrations</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >Ephemeris Illustrations</a
+          >
+        </button>
         <img src="/images/Product 5.png" alt="" />
-        <button class="btn2"><a href="#">Pracownia Wizytowek</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >Pracownia Wizytowek</a
+          >
+        </button>
         <img src="/images/Product 6.png" alt="" />
-        <button class="btn2"><a href="#">macOS Template</a></button>
+        <button class="btn2">
+          <a href="#"
+            ><i class="fa-regular fa-arrow-up-right" style="color: #ececec"></i
+            >macOS Template</a
+          >
+        </button>
       </div>
 
       <!-- Skills and Stack -->
@@ -61,24 +111,41 @@
         <span class="stack">UI|UX Design</span>
         <span class="stack">Ecommerce Automation</span>
         <span class="stack">Branding</span>
-        <span class="stack">Figma</span>
+        <span class="stack"
+          ><i class="fa-brands fa-figma" style="color: #ececec"></i>Figma</span
+        >
         <span class="stack">Framer</span>
         <span class="stack">Adobe Illustrator</span>
         <span class="stack">Adobe Photoshop</span>
         <span class="stack">After Effects</span>
         <span class="stack">Procreate</span>
-        <span class="stack">Wordpress</span>
+        <span class="stack"
+          ><i class="fa-brands fa-wordpress" style="color: #ececec"></i
+          >Wordpress</span
+        >
         <span class="stack">Woocommerce</span>
         <span class="stack">Notion</span>
         <span class="stack">1Password</span>
-        <span class="stack">Apple</span>
-        <span class="stack">HTML5</span>
-        <span class="stack">CSS3</span>
+        <span class="stack"
+          ><i class="fa-brands fa-apple" style="color: #ececec"></i>Apple</span
+        >
+        <span class="stack"
+          ><i class="fa-brands fa-html5" style="color: #ececec"></i>HTML5</span
+        >
+        <span class="stack"
+          ><i class="fa-brands fa-css3-alt" style="color: #ececec"></i
+          >CSS3</span
+        >
       </div>
 
       <!-- Footer -->
       <div class="footer">
-        <h3 class="text2">Have an interesting project in mind?</h3>
+        <h3 class="text2">
+          Have an interesting project in mind?<i
+            class="fa-solid fa-hand-wave"
+            style="color: #eee71b"
+          ></i>
+        </h3>
         <p class="p1">
           I am a digital designer with 7+ years of experience and a passion for
           web-design, ecommerce, branding and illustrations. I am comfortable
@@ -90,9 +157,26 @@
           in Poland (UTC+2)
         </p>
 
-        <button class="btn1"><a href="#">Hire Me!</a></button>
-        <button class="btn1"><a href="#">Read CV </a></button>
-        <span class="download"><a href="#">Download Resume</a></span>
+        <button class="btn1">
+          <a href="#"
+            ><i class="fa-solid fa-paper-plane" style="color: #191919"></i>Hire
+            Me!</a
+          >
+        </button>
+        <button class="btn1">
+          <a href="#"
+            ><i class="fa-thin fa-memo" style="color: #ececec"></i>Read CV
+          </a>
+        </button>
+        <span class="download"
+          ><a href="#"
+            ><i
+              class="fa-sharp fa-light fa-arrow-right"
+              style="color: #ececec"
+            ></i
+            >Download Resume</a
+          ></span
+        >
       </div>
 
       <!-- Subfooter -->

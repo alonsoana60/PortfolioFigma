@@ -1,0 +1,24 @@
+@font-face {
+  font-family: sf-fonte;
+  src: url(/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF) format(OpenType);
+}
+.screen {
+  background: #252525;
+  width: 1280px height 2993px font-family sf-fonte;
+}
+
+.header {
+  width: 790px;
+  height: 615.09px;
+  font-family: sf-fonte;
+  color: #969696;
+  padding-top: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.foto {
+  height: 140px;
+  width: 130px;
+  border-radius: 62px;
+}/*# sourceMappingURL=style.css.map */
