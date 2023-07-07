@@ -13,7 +13,8 @@ a :active {
 
 .screen {
   background: #252525;
-  width: 1280px height 2993px;
+  width: 1280px;
+  height: 3000px;
 }
 
 .header {
@@ -71,25 +72,23 @@ a :active {
   margin-top: 30px;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands, .fa-solid, .fa-regular {
   padding-right: 10px;
 }
 
 .products {
-  height: 1211px;
+  height: auto;
   font-family: poppins;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .text1 {
   font-size: 24px;
   text-align: left;
-  position: relative;
-  margin: 0 auto;
+  color: #969696;
 }
 
 .card-prod {
@@ -99,6 +98,7 @@ a :active {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 24px;
 }
 
 .cards {
@@ -145,6 +145,79 @@ a :active {
   width: 238px;
 }
 
-.fa-sharp {
+.skills {
+  width: 790px;
+  height: 256px;
+  font-family: poppins;
+  margin: 70px auto;
+}
+
+.stack1 {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: stretch;
+}
+
+.stack {
   color: #ECECEC;
+  border-color: #ECECEC;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 6px 6px;
+  margin-bottom: 7px;
+  margin-right: 2px;
+}
+
+.footer {
+  width: 792px;
+  height: 526px;
+  background-color: #696969;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-family: poppins;
+  padding: 0px 30px 10px 10px;
+}
+
+.text2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #ececec;
+  padding: 30px 0px 0px 20px;
+  text-align: left;
+}
+
+.p1 {
+  color: #ececec;
+  font-size: 18px;
+  text-align: left;
+  width: 577px;
+  height: 293px;
+  margin-left: 20px;
+}
+
+.btn2_1 {
+  height: 64px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 5px;
+  background-color: transparent;
+  color: #ECECEC;
+  border-color: #ECECEC;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.subfooter {
+  width: 451px;
+  height: 26px;
+  padding: 1px 0px;
+  font-size: 20px;
+  color: #969696;
+  margin: 20px auto;
 }/*# sourceMappingURL=style.css.map */
