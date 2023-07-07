@@ -5,24 +5,30 @@
 
 a {
     text-decoration: none;
-    color: #ececec
+    color: #ECECEC;   
+}
+
+a :active{
+    text-decoration: none;
 }
 
 .screen {
     background: #252525;
     width: 1280px
     height 2993px
-    font-family 
 }
+
+// Header
 
 .header{
 width: 790px;
-height: 615.09px;
+height: 550px;
 font-family: poppins;
 color: #969696;
 padding-top: 100px;
 position: relative;
 margin: 0 auto;
+
 }
 
 .foto{
@@ -39,7 +45,7 @@ margin: 0 auto;
 .title{
     color: #ECECEC;
     font-weight:lighter;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: -20px;
  }
 
@@ -52,23 +58,102 @@ margin: 0 auto;
     height: 64px;
     width: 150px;
     border-radius: 10px;
-    border-color: #ececec;
-    background-color: transparent;
-    color: #ececec;
+    color: #252525;
     font-size: 20px;
     margin-right: 5px;
+    background-color: #ECECEC;
 }
 
-.btn1 :hover{
-    background-color: #ececec;
-    color: #252525;
+.btn2 {
+    height: 64px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: transparent;
+    color: #ECECEC;
+    border-color: #ECECEC;
+    margin-top: 30px;
+
 }
 
-.fa-brands , .fa-solid{
+.fa-brands , .fa-solid {
     padding-right: 10px;
 }
 
-.fa-brands,
-.fa-solid :hover{
-    color: #252525;
+// Products
+
+.products{
+    height: 1211px;
+    font-family: poppins;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text1{
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+}
+
+.card-prod{
+   width: 792px;
+   height: 374px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.cards{
+    width: 363px;
+    height: 374px;
+    border-radius: 20px;
+    position:static;
+}
+
+.btn3_1 , .btn3_2 , .btn3_3 , .btn3_4 , .btn3_5 , .btn3_6{
+    height: 44px;
+    padding: 10px 20px;
+    margin-top: -65px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ECECEC;
+    background-color: #696969;
+    text-align: right;
+    border-radius: 10px;
+    border-color: #ececec;
+}
+
+.btn3_1{
+    width: 251px;
+}
+
+.btn3_2 {
+    width: 239px;
+}
+
+.btn3_3 {
+    width: 214px;
+}
+
+.btn3_4 {
+    width: 293px;
+}
+
+.btn3_5 {
+    width: 283px;
+}
+
+.btn3_6 {
+    width: 238px;
+}
+
+.fa-sharp {
+color: #ECECEC;
 }
